@@ -17,4 +17,4 @@ This project presents an Executive Customer Retention & Churn Dashboard created 
 - **Service Bundling**: Offer a complimentary 3 month Tech Support trial for Fiber Optic customers to reduce technical friction.
 
 - ## Dashboard Preview
-- ![Customer Churn Dashboard](Task2 Dashboard PNG) 
+- ![Customer Churn Dashboard](Task2%20Dashboard%20PNG.png) 
