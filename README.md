@@ -5,7 +5,7 @@ This project presents an Executive Customer Retention & Churn Dashboard created 
 ## Data Preparation & DAX Methodology
 - **Data Cleaning**: Resolved blank entries in 'Total Charges', converted formats to Decimal, and handled Regional Locale settings.
 - **Segmentation**: Categorized customer tenure into custom age brackets ('0-12 Months', '13-24 Months', '25-48 Months', '49+ Months').
-**Core DAX Measures**:
+- **Core DAX Measures**:
 - 'Total Customers = COUNT('Telco Customer Churn Task 2' [customerID])'
 - 'Churned Customers = CALCULATE([Total Customers], 'Telco Customer Churn Task 2' [Churn] = "Yes")'
 - 'Churn Rate % = DIVIDE([Churned Customers], [TotalCustomers], 0)'
