@@ -1,6 +1,13 @@
 # Customer Retention & Churn Analysis (Task 2)
-## Executive Summary
+## Executive Summary & Business Problem
 This project presents an Executive Customer Retention & Churn Dashboard created in Power BI for a subscription-based service provider. By analysing subscriber demographics, contract structures, and service features, this dashboard identifies financial revenue at risk and provides strategic recommendations to boost customer retention.
+In subscription and SaaS business models, customer churn directly impacts long-term growth and recurring revenue [3]. Using the **Telco Customer Churn dataset**, this project addresses four critical retention questions [4, 10]:
+1. **Why are customers leaving?** Identifying friction points across internet services and billing options [4, 8].
+2. **Which cohorts are most vulnerable?** Segmenting attrition rates across tenure brackets (0–12m, 13–24m, 25–48m, 49+m) and contract types [4, 8].
+3. **What is the financial impact?** Calculating total lost monthly revenue exposure [1, 4].
+4. **How can retention be improved?** Translating data findings into targeted onboarding and bundling strategies [1, 4].
+
+The resulting interactive **Power BI dashboard** provides executive KPI tracking, dynamic filtering, and strategic recommendations for retention teams [1, 7, 11].
 
 ## Data Preparation & DAX Methodology
 - **Data Cleaning**: Resolved blank entries in 'Total Charges', converted formats to Decimal, and handled Regional Locale settings.
